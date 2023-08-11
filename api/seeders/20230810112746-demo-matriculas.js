@@ -14,14 +14,14 @@ module.exports = {
     {
       status: "confirmado",
       estudante_id: 2,
-      turma_id: 3,
+      turma_id: 2,
       createdAt: new Date(),
       updatedAt: new Date()
     },
     {
       status: "confirmado",
       estudante_id: 3,
-      turma_id: 2,
+      turma_id: 3,
       createdAt: new Date(),
       updatedAt: new Date()
     }], {});

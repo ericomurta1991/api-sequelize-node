@@ -18,7 +18,7 @@ module.exports = {
         descr_nivel: 'avancado',
         createdAt: new Date(),
         updatedAt: new Date()
-      }, {}]);
+      }], {});
   },
 
   async down (queryInterface, Sequelize) {

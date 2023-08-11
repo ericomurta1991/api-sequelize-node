@@ -9,21 +9,21 @@ module.exports = {
     await queryInterface.bulkInsert('Turmas', [{
       data_inicio: "2023-02-01",
       nivel_id: 1,
-      docente_id:5,
+      docente_id:1,
       createdAt: new Date(),
       updatedAt: new Date()
     },
     {
       data_inicio: "2023-02-05",
-      nive_id: 2,
-      docente_id: 1,
+      nivel_id: 2,
+      docente_id: 2,
       createdAt: new Date(),
       updatedAt: new Date()
     },
     {
       data_inicio: "2023-02-01",
-      nivel_id: 3,
-      docente_id: 4,
+      nivel_id:3,
+      docente_id: 3,
       createdAt: new Date(),
       updatedAt: new Date()
     }], {});

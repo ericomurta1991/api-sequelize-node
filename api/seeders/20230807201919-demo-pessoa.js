@@ -7,10 +7,10 @@ module.exports = {
       await queryInterface.bulkInsert('Pessoas', [{
       nome: 'Ana Souza',
       ativo: true,
+      email: 'ana@ana.com',
       role: 'estudante',
       createdAt: new Date(),
       updatedAt: new Date()
-      //isBetaMember: false
       },
       {
         nome: 'Marcos Cintra',
@@ -32,6 +32,6 @@ module.exports = {
   },
 
   async down (queryInterface, Sequelize) {
-    
+    return queryInterface.bulkDelete('Users', null, {})
   }
 };
